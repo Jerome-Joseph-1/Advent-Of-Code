@@ -8,8 +8,8 @@ then
         mkdir "$1-Day/1-Part"
         mkdir "$1-Day/2-Part"
 
-        cp -r .template/* "$1-Day/1-Part"
-        cp -r .template/* "$1-Day/2-Part"
+        cp -r ../.template/* "$1-Day/1-Part"
+        cp -r ../.template/* "$1-Day/2-Part"
     fi
 else 
     echo "Usage : sh create-day.sh [day-number]"
